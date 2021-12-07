@@ -1,3 +1,6 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "content/notes"]
+	path = content/notes
+	url = https://horkhork@github.com/horkhork/vimdiary.git
