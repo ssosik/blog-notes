@@ -27,9 +27,9 @@ languages:
                 - name: Notes
                   url: notes
                   weight: 5
-                - name: Private
-                  url: notes/private
-                  weight: 5
+                    #- name: Private
+                    #  url: notes/private
+                    #  weight: 5
                 - name: Search
                   url: search/
                   weight: 20
