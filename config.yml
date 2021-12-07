@@ -24,6 +24,9 @@ languages:
                 - name: Blog
                   url: blog
                   weight: 5
+                - name: Notes
+                  url: notes/public
+                  weight: 5
                 - name: Private
                   url: notes/private
                   weight: 5
