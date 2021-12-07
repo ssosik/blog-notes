@@ -3,4 +3,7 @@
 	url = https://github.com/adityatelange/hugo-PaperMod.git
 [submodule "content/notes"]
 	path = content/notes
+	url = https://github.com/ssosik/blog-data.git
+[submodule "content/private"]
+	path = content/private
 	url = https://horkhork@github.com/horkhork/vimdiary.git
