@@ -81,7 +81,7 @@ params:
     homeInfoParams:
         Title: "Sosik Notes"
         Content: >
-            Where I organize my thoughts and keep structured notes
+            A place to organize my thoughts and keep structured notes
 
     #socialIcons:
     #    - name: github
