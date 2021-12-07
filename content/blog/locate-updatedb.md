@@ -7,7 +7,7 @@ lastmod: "2019-03-12T13:40:00-04:00"
 tags:
   - bash
   - todo
-draft: true
+draft: false
 weight: 50
 images: []
 contributors:

@@ -7,7 +7,7 @@ lastmod: "2019-03-03T19:40:00-05:00"
 tags:
   - bash
   - blog
-draft: true
+draft: false
 weight: 50
 images: []
 contributors:
