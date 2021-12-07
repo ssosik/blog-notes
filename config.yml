@@ -27,9 +27,9 @@ languages:
                 - name: Notes
                   url: notes
                   weight: 5
-                    #- name: Private
-                    #  url: notes/private
-                    #  weight: 5
+                #- name: Private
+                #  url: notes/private
+                #  weight: 5
                 - name: Search
                   url: search/
                   weight: 20
@@ -83,18 +83,10 @@ params:
         Content: >
             A place to organize my thoughts and keep structured notes
 
-    #socialIcons:
-    #    - name: github
-    #      url: "https://github.com/adityatelange/hugo-PaperMod"
-    #    - name: KoFi
-    #      url: "https://ko-fi.com/adityatelange"
-    #    - name: RsS
-    #      url: "index.xml"
-
     editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+        URL: "https://github.com/ssosik/blog-data/tree/main"
         Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+        appendFilePath: false # to append file path to Edit link
 
     # label:
     #     text: "Home"
@@ -133,7 +125,7 @@ taxonomies:
 markup:
     goldmark:
         renderer:
-            unsafe: true
+            unsafe: false
 #     highlight:
 #         # anchorLineNos: true
 #         codeFences: true
@@ -144,24 +136,24 @@ markup:
 
 privacy:
     vimeo:
-        disabled: false
+        disabled: true
         simple: true
 
     twitter:
-        disabled: false
+        disabled: true
         enableDNT: true
         simple: true
 
     instagram:
-        disabled: false
+        disabled: true
         simple: true
 
     youtube:
-        disabled: false
+        disabled: true
         privacyEnhanced: true
 
-services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
+#services:
+#    instagram:
+#        disableInlineCSS: true
+#    twitter:
+#        disableInlineCSS: true
