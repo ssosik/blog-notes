@@ -1,6 +1,6 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Sosik Notes
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -25,14 +25,14 @@ languages:
                   url: blog
                   weight: 5
                 - name: Notes
-                  url: notes/public
+                  url: notes
                   weight: 5
                 - name: Private
                   url: notes/private
                   weight: 5
                 - name: Search
                   url: search/
-                  weight: 10
+                  weight: 20
                 - name: Tags
                   url: tags/
                   weight: 10
@@ -79,15 +79,9 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "PaperMod"
+        Title: "Sosik Notes"
         Content: >
-            Welcome to demo of hugo's theme PaperMod.
-
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-
-            - Do give a 🌟 on Github !
-
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+            Where I organize my thoughts and keep structured notes
 
     #socialIcons:
     #    - name: github
