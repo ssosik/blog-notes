@@ -1,0 +1,42 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: My New Hugo Site
+theme: "PaperMod"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Blog
+                  url: blog
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: Categories
+                  url: categories/
+                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
