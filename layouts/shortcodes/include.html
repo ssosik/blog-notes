@@ -2,7 +2,7 @@
   {{- $summary := cond .IsNamedParams (.Get "title") (.Get 0) -}}
   <summary>{{ $summary | .Page.RenderString }}</summary>
   <div class="markdown-inner">
-    {{ $filename := (path.Join $.Page.Dir (.Get "file")) }}
+    {{ $filename := (path.Join .Page.File.Dir (.Get "file")) }}
     {{ $file := $filename | readFile }}
     {{ $lang := .Get "lang" }}
     {{ $highlight := default "" (.Get "highlight" ) }}
