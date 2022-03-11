@@ -1,6 +1,6 @@
 baseURL: http://sosik.us/
 languageCode: en-us
-title: Sosik.US
+title: Sosik.us
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -79,12 +79,12 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "Notes"
+        Title: "A place to organize my thoughts"
         Content: >
-            A place to organize my thoughts and keep structured notes
+            and share random things of interest
 
     editPost:
-        URL: "https://github.com/ssosik/blog-data/tree/main"
+        URL: "https://github.com/ssosik/sosik.us-site/tree/main"
         Text: "Suggest Changes" # edit text
         appendFilePath: false # to append file path to Edit link
 
