@@ -1,6 +1,6 @@
 [submodule "content/notes"]
 	path = content/notes
-	url = https://ssosik@github.com/ssosik/blog-data.git
+	url = https://github.com/ssosik/personal-notes-public.git
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
